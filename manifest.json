@@ -1,9 +1,9 @@
 {
-  "short_name": "Lukas Viskanta",
-  "name": "Lukas Viskanta's Portfolio",
+  "short_name": "Lukas",
+  "name": "Lukas's Portfolio",
   "icons": [
     {
-      "src": "lukasdoofus_icon.ico",
+      "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
