@@ -1,0 +1,112 @@
+
+
+
+html {
+  font-size: 100%;
+}
+
+.Page {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 7% 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "nav nav nav nav"
+    "bigLukas bigLukas head head"
+    "desc desc head head"
+    "thanks bigVisk bigVisk bigVisk";
+  padding: 0px;
+  margin: 0px;
+}
+
+.NavBar {
+  grid-area: nav;
+  display: flex;
+  height: 100%;
+
+}
+
+.Logo {
+  height: 90%;
+  padding: 0%;
+  margin: 20px;
+}
+
+.Big-Lukas {
+  grid-area: bigLukas;
+  font-size: 15vw;
+  height: 30vh;
+  width: 100%;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+.Blurb {
+  grid-area: desc;
+  margin: 0px;
+  padding: 20px;
+}
+
+.Title {
+  padding: 0px;
+  margin: 0px;
+  font-size: 4vw;
+}
+
+.Subtitle {
+  padding: 0px;
+  margin: 0px;
+  font-size: 1.75vw;
+  color: #D26463;
+}
+
+.Description {
+  padding: 0px;
+  margin: 10px;
+  font-size: 1.25vw;
+}
+
+.Self {
+  grid-area: head;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  place-self: center;
+}
+
+.Big-Viskanta {
+  grid-area: bigVisk;
+  font-size: 15vw;
+  height: 30vh;
+
+  text-align: right;
+  order: 2;
+  padding: 0px;
+  margin: 0px;
+
+}
+
+.Thanks-For {
+  grid-area: thanks;
+  animation: spin 8s infinite linear;
+  place-self: center;
+  width: 15vw;
+  object-fit: cover;
+  padding: 0px;
+  margin: 0px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
